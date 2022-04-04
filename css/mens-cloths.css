@@ -1,0 +1,69 @@
+/* main headding styles */
+.main-headding {
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-headding a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8)
+}
+
+/* body content items styles */
+.body-content {
+    text-align: center;
+}
+
+.item {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 250px;
+    padding: 0;
+    margin: 15px 10px;
+}
+
+
+.item .headding {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 1rem 0;
+}
+
+.item .image {
+    text-align: center;
+}
+
+.item img {
+    max-width: 150px;
+}
+
+.item .description-data {
+    color: white;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.item .description-data.men {
+    background-color: #2BD8AE;
+}
+
+.item .description-data.women {
+    background-color: #FF5D84;
+}
+
+.item .description-data .price {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #0E42FD;
+    margin-bottom: 10px;
+}
+
+.item .description-data .description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .75rem;
+    color: black;
+}
